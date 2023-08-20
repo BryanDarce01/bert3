@@ -1,5 +1,5 @@
 import streamlit as st
-# import torch
+import torch
 from transformers import BertTokenizer, BertForSequenceClassification
 
 def predict_sentiment_and_recommendation(comment):
